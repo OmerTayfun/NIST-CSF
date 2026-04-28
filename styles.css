@@ -560,6 +560,7 @@ html, body {
   list-style: none;
   margin: 0;
   padding: 0 48px;
+}
 .scen {
   display: grid;
   grid-template-columns: 160px 1px 1fr 140px;
