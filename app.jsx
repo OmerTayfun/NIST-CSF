@@ -160,14 +160,14 @@ function WhatIsNist() {
             title="Security & Privacy Controls"
             year="Rev. 5"
             role="Detaylı katalog"
-            desc="~1000 spesifik güvenlik kontrolü. Federal kurumlar için zorunlu, herkes için referans. Çok teknik." />
+            desc="CSF'in 'ne yapmalı'sını 'nasıl yapmalı'ya çeviren katalog. 1000 kontrol, 20 aile. Teknik ekipler için asıl kaynak."
           
           <DocCard
             tag="800-171"
             title="Protecting CUI"
             year="Rev. 3"
             role="Tedarikçi standardı"
-            desc="ABD savunma tedarikçileri için. 800-53'ün özel bilgileri (CUI) koruyan alt kümesi. 110 kontrol." />
+            desc="Devlet binasına iş yapan müteahhidin uyması gereken güvenlik kuralları. 800-53'ün savunma sektörüne özel, sadeleştirilmiş versiyonu. 110 kontrol, somut gereksinimler." />
           
         </div>
       </div>
