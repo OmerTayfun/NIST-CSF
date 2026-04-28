@@ -160,7 +160,7 @@ function WhatIsNist() {
             title="Security & Privacy Controls"
             year="Rev. 5"
             role="Detaylı katalog"
-            desc="CSF'in 'ne yapmalı'sını 'nasıl yapmalı'ya çeviren katalog. 1000 kontrol, 20 aile. Teknik ekipler için asıl kaynak."
+            desc="CSF'in 'ne yapmalı'sını 'nasıl yapmalı'ya çeviren katalog. 1000 kontrol, 20 aile. Teknik ekipler için asıl kaynak."/>
           
           <DocCard
             tag="800-171"
