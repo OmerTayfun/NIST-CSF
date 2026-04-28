@@ -284,48 +284,49 @@ function ScenarioSection() {
 
   return (
     <section className="section section--dark" data-screen-label="Senaryo">
-      <div className="section__num">§ 03</div>
-      <h2 className="section__title">
-        {SCENARIO.title}
-      </h2>
-      <p className="section__lede">
-        <strong>{SCENARIO.subtitle}.</strong> {SCENARIO.intro}
-      </p>
-
-      <ol className="scenario">
-        {SCENARIO.steps.map((step, i) => {
-          const fn = FUNCTIONS.find((f) => f.id === step.function);
-          return (
-            <li
-              key={i}
-              className={`scen ${hover === i ? "scen--hover" : ""}`}
-              onMouseEnter={() => setHover(i)}
-              onMouseLeave={() => setHover(null)}>
-              
-              <div className="scen__time">{step.time}</div>
-              <div className="scen__rule" />
-              <div className="scen__body">
-                <div className="scen__title">{step.title}</div>
-                <p>{step.body}</p>
-              </div>
-              <div className="scen__fn">
-                <div className="scen__fn-tag">{step.function}</div>
-                <div className="scen__fn-name">{fn.titleTR}</div>
-              </div>
-            </li>);
-
-        })}
-      </ol>
-
-      <div className="scen-takeaway">
-        <div className="scen-takeaway__num">→</div>
-        <p>
-          Saldırının <em>her</em> adımı, framework'teki bir fonksiyona düşüyor. Çerçeve böyle çalışır:
-          her zayıflık bir kategoriye, her kategori bir fonksiyona, her fonksiyon yönetimin bir kararına bağlanır.
+      <div style={{maxWidth:"var(--maxw)", margin:"0 auto", padding:"100px 48px"}}>
+        <div className="section__num">§ 03</div>
+        <h2 className="section__title">
+          {SCENARIO.title}
+        </h2>
+        <p className="section__lede">
+          <strong>{SCENARIO.subtitle}.</strong> {SCENARIO.intro}
         </p>
-      </div>
-    </section>);
 
+        <ol className="scenario">
+          {SCENARIO.steps.map((step, i) => {
+            const fn = FUNCTIONS.find((f) => f.id === step.function);
+            return (
+              <li
+                key={i}
+                className={`scen ${hover === i ? "scen--hover" : ""}`}
+                onMouseEnter={() => setHover(i)}
+                onMouseLeave={() => setHover(null)}>
+                <div className="scen__time">{step.time}</div>
+                <div className="scen__rule" />
+                <div className="scen__body">
+                  <div className="scen__title">{step.title}</div>
+                  <p>{step.body}</p>
+                </div>
+                <div className="scen__fn">
+                  <div className="scen__fn-tag">{step.function}</div>
+                  <div className="scen__fn-name">{fn.titleTR}</div>
+                </div>
+              </li>
+            );
+          })}
+        </ol>
+
+        <div className="scen-takeaway">
+          <div className="scen-takeaway__num">→</div>
+          <p>
+            Saldırının <em>her</em> adımı, framework'teki bir fonksiyona düşüyor. Çerçeve böyle çalışır:
+            her zayıflık bir kategoriye, her kategori bir fonksiyona, her fonksiyon yönetimin bir kararına bağlanır.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
 }
 
 // === Bölüm 4: 800-53, 800-171 ilişkisi ===
