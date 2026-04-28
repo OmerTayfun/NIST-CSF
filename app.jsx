@@ -456,7 +456,7 @@ function Closing() {
       <h2 className="section__title">
         Özetle: <em style={{ color: "rgb(31, 148, 93)" }}>evini düşün</em>
       </h2>
-      <div className="closing-grid">
+      <div className="closing-grid" style={{maxWidth:"var(--maxw)", margin:"0 auto", width:"100%"}}>
         <ClosingRow id="GV" tr="Yönet" en="Govern" line="Evin kurallarını sen koyarsın." />
         <ClosingRow id="ID" tr="Tanımla" en="Identify" line="Neyin var, biliyorsun." />
         <ClosingRow id="PR" tr="Koru" en="Protect" line="Kapı kilitli, kasa var." />
