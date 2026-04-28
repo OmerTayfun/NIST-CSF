@@ -73,7 +73,7 @@ function MetaphorBox({ metaphor, compact }) {
 function Hero() {
   return (
     <section className="hero" data-screen-label="Hero">
-      <div className="hero__eyebrow">Bir başlangıç rehberi · A primer</div>
+      <div className="hero__eyebrow">Bir başlangıç rehberi · Hazırlayan: Ömer Tayfun DEVEÇEKER</div>
       <h1 className="hero__title">
         NIST Siber Güvenlik
         <br />
