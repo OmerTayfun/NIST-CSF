@@ -76,7 +76,7 @@ function Hero() {
       <div className="hero__eyebrow">
   Bir başlangıç rehberi &nbsp;·&nbsp; Hazırlayan:{" "}
   
-    href="https://www.linkedin.com/in/omertayfundeveceker/"
+    <a href="https://www.linkedin.com/in/omertayfundeveceker/"
     target="_blank"
     rel="noopener noreferrer"
     style={{display:"inline-flex", alignItems:"center", gap:"4px", color:"inherit", textDecoration:"none"}}
