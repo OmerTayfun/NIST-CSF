@@ -283,7 +283,7 @@ function ScenarioSection() {
   const [hover, setHover] = useState(null);
 
   return (
-    <section className="section section--dark" data-screen-label="Senaryo" style={{paddingLeft:"48px", paddingRight:"80px"}}>
+    <section className="section section--dark" data-screen-label="Senaryo">
       <div className="section__num">§ 03</div>
       <h2 className="section__title">
         {SCENARIO.title}
