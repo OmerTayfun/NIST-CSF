@@ -464,7 +464,7 @@ function Closing() {
         <ClosingRow id="RS" tr="Müdahale Et" en="Respond" line="Olduğunda ne yapacağını biliyorsun." />
         <ClosingRow id="RC" tr="Toparlan" en="Recover" line="Sonra eskisinden güçlü oluyorsun." />
       </div>
-      <p className="closing-final">
+      <p className="closing-final" style={{maxWidth:"var(--maxw)", margin:"0 auto", width:"100%"}}>
         NIST'in tek söylediği bu: bu altı şeyi bir kere yap, sonra <em style={{ color: "rgb(31, 148, 93)" }}>düzenli olarak</em> yapmaya devam et.
         Ne kadar büyük olduğun değil, ne kadar bilinçli olduğun önemli.
       </p>
