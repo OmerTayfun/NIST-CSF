@@ -849,7 +849,7 @@ html, body {
   font-size: 26px;
   line-height: 1.5;
   max-width: 880px;
-  margin: 32px 0 48px;
+  margin: 64px 0 48px;
 }
 .closing-final em { color: var(--accent); font-style: italic; }
 .closing-foot {
